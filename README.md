@@ -9,34 +9,32 @@ AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular Biod
 ## 🔹 Project Overview  
 
 We are building an **AI-driven unified platform** to predict fish catch by species and fishing zones, while linking it with oceanographic parameters such as **temperature, salinity, chlorophyll, and currents**.  
-Our goal is to create a **scalable and accessible system** that can support scientists, policymakers, and fishers in making sustainable decisions.  
+The goal is to create a **scalable and accessible system** that can support scientists, policymakers, and fishers in making sustainable decisions.  
 
 ---
 
 ## 🔹 Key Elements  
 
-- **Integration**: Bringing together fisheries catch data (FAO) with oceanographic datasets (SAU) and leaving scope for future biodiversity/eDNA modules.  
-- **Prediction & Visualization**: Applying ML/statistical models (**XGBoost, Prophet, regression**) to forecast catches and display **“Safe-to-Fish Zones.”**  
-- **Scalability**: Modular backend that allows quick ingestion of new data sources.  
-- **Usability**: Intuitive dashboard with maps, time-series plots, alert banners, and data downloads.  
-- **APIs & Docs**: REST APIs for predictions and data inputs with proper documentation.  
+- **Integration**: Combines fisheries catch data (FAO) with oceanographic datasets (SAU) and keeps room for future biodiversity/eDNA modules.  
+- **Prediction & Visualization**: Uses ML/statistical models (**XGBoost, Prophet, regression**) to forecast catches and highlight **“Safe-to-Fish Zones.”**  
+- **Overfishing Alerts**: Flags catches above sustainable thresholds for decision support.  
+- **Scalable & Modular**: Designed to easily include new data sources in the future.  
+- **User-Friendly**: Visualizations of trends, ocean parameters, and risk indicators.  
 
 ---
 
 ## 🔹 Our Approach  
 
-- Began with **species-wise catch prediction** using Sea Around Us landings.  
-- Incorporated **oceanographic correlations** (SST, salinity, chlorophyll, currents) from FAO and synthetic datasets where needed.  
-- Added **overfishing risk alerts** to flag catches above sustainable thresholds.  
-- Designed **visualizations** that combine predictions, ocean parameters, and risk indicators.  
-- Left room for **future expansion** with molecular/biodiversity (**eDNA**) modules.  
+- Started with **species-wise catch prediction** using Sea Around Us landings.  
+- Linked **oceanographic correlations** (SST, salinity, chlorophyll, currents) from FAO and synthetic datasets.  
+- Implemented **risk alerts** for overfishing conditions.  
+- Designed **visual outputs** combining predictions, ocean parameters, and alerts.  
+- Left room for **future integration** of molecular/biodiversity (**eDNA**) modules.  
 
 ---
 
 ## 🔹 Datasets  
 
-- **Sea Around Us – India EEZ Data** – Marine catch and effort data for India’s Exclusive Economic Zone (EEZ).
+- **Sea Around Us – India EEZ Data** – Marine catch and effort data for India’s Exclusive Economic Zone.  
 - **Food and Agriculture Organization (FAO)** – Annual global capture production data.  
-- **Synthetic Data** – generated where real features are unavailable.  
-
----
+- **Synthetic Data** – Created for missing features to simulate real-world scenarios.  
