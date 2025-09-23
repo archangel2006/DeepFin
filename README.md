@@ -18,8 +18,8 @@ The goal is to create a **scalable and accessible system** that can support scie
 - **Integration**: Combines fisheries catch data (FAO) with oceanographic datasets (SAU) and keeps room for future biodiversity/eDNA modules.  
 - **Prediction & Visualization**: Uses ML/statistical models (**XGBoost, Prophet, regression**) to forecast catches and highlight **“Safe-to-Fish Zones.”**  
 - **Overfishing Alerts**: Flags catches above sustainable thresholds for decision support.  
+- **Extensibility**: The model can be easily extended to a **frontend dashboard using Streamlit** for interactive visualization and user-friendly access.  
 - **Scalable & Modular**: Designed to easily include new data sources in the future.  
-- **User-Friendly**: Visualizations of trends, ocean parameters, and risk indicators.  
 
 ---
 
@@ -29,7 +29,7 @@ The goal is to create a **scalable and accessible system** that can support scie
 - Linked **oceanographic correlations** (SST, salinity, chlorophyll, currents) from FAO and synthetic datasets.  
 - Implemented **risk alerts** for overfishing conditions.  
 - Designed **visual outputs** combining predictions, ocean parameters, and alerts.  
-- Left room for **future integration** of molecular/biodiversity (**eDNA**) modules.  
+- Maintains room for **future integration** of molecular/biodiversity (**eDNA**) modules and frontend dashboards.  
 
 ---
 
